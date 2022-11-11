@@ -1,0 +1,29 @@
+body {
+    width: 1440px;
+    background-color: var(--backgroud-color);
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    height: 820px;
+    width: 100px;
+    background-color: var(--nav-color);
+    text-align: center;
+}
+.link {
+    display: none;
+}
+.vector {
+    height: 25px;
+    margin: 17px;
+}
+.logo {
+    width: 68px;
+    height: 34px;
+    margin: 52px 16px 55px 16px;
+}
+.nav:hover {
+    width: 206px;
+    cursor: pointer;
+    text-align: center;
+}

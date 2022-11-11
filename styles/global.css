@@ -1,13 +1,14 @@
 :root {
     --primary-color: #ebeef5;
     --secondary-color: #02577a;
-    --grey: #c4c4c4;
+    --backgroud-color: #e5e5e5;
+    --nav-color: #f7f6ff;
 }
+
 body,
 body * {
     margin: 0;
     padding: 0;
-    vertical-align: top;
     box-sizing: border-box;
 }
 
