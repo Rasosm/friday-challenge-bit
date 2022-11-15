@@ -7,7 +7,6 @@ body {
     height: 906px;
     width: 100px;
     background-color: var(--nav-color);
-    text-align: center;
     transition: width 1s;
 }
 nav > div {
@@ -18,27 +17,39 @@ nav > div {
 .line-23 {
     width: 62.24px;
     top: 110.03px;
-    left: 18px;
+    margin-left: 18px;
     height: 2px;
     background-color: var(--secondary-color);
     position: absolute;
     transition: width 2s;
 }
 .link {
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
     text-decoration: none;
+    font-weight: 500;
+    line-height: 19.5px;
     display: none;
-    /* visibility: hidden; */
+    color: var(--secondary-color);
+}
+.back-home {
+    background-image: ;
+}
+.home {
+    color: var(--primary-color);
 }
 .vector {
     height: 25px;
     margin: 17px;
-    left: 43px;
+    margin-left: 37px;
     justify-content: center;
     justify-items: center;
     text-align: center;
+    align-items: stretch;
+}
+.back-home {
+    margin-left: 43px;
+}
+.games {
+    margin-left: 30px;
 }
 .logo {
     width: 68px;
@@ -54,10 +65,9 @@ nav > div {
 }
 .nav:hover .line-23 {
     width: 128.22px;
-    left: 39px;
+    margin-left: 39px;
 }
 .nav:hover .link {
-    /* visibility: visible; */
     display: inline-block;
 }
 .line-24 {
@@ -65,7 +75,7 @@ nav > div {
     background-color: var(--primary-color);
     height: 1px;
     top: 871px;
-    left: 547px;
+    margin-left: 547px;
     position: absolute;
 }
 .copy-right {
@@ -74,6 +84,6 @@ nav > div {
     color: var(--primary-color);
     padding: 0 0px 24px 0px;
     top: 882px;
-    left: 626px;
+    margin-left: 626px;
     position: absolute;
 }
