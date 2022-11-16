@@ -1,27 +1,38 @@
 body {
-    width: 1440px;
+    width: 100%;
     background-color: var(--backgroud-color);
-    position: relative;
+    /* position: relative; */
 }
 .nav {
-    height: 906px;
+    height: 100vh;
     width: 100px;
+    position: fixed;
     background-color: var(--nav-color);
     transition: width 1s;
 }
 nav > div {
-    text-align: center;
     display: flex;
     align-items: center;
 }
+.logo {
+    width: 68px;
+    height: 34px;
+    margin: 52px 16px 20px 16px;
+    text-align: center;
+    justify-content: center;
+}
 .line-23 {
     width: 62.24px;
-    top: 110.03px;
     margin-left: 18px;
     height: 2px;
     background-color: var(--secondary-color);
-    position: absolute;
     transition: width 2s;
+}
+.header-menu {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
 }
 .link {
     text-decoration: none;
@@ -29,34 +40,23 @@ nav > div {
     line-height: 19.5px;
     display: none;
     color: var(--secondary-color);
-}
-.back-home {
-    background-image: ;
+    margin-left: 19px;
 }
 .home {
     color: var(--primary-color);
 }
+.menu-item:nth-child(1) {
+    margin-bottom: 16px;
+}
 .vector {
     height: 25px;
-    margin: 17px;
     margin-left: 37px;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    align-items: stretch;
 }
 .back-home {
     margin-left: 43px;
 }
 .games {
     margin-left: 30px;
-}
-.logo {
-    width: 68px;
-    height: 34px;
-    margin: 52px 16px 55px 16px;
-    text-align: center;
-    justify-content: center;
 }
 .nav:hover {
     width: 206px;
@@ -74,16 +74,18 @@ nav > div {
     width: 346.01px;
     background-color: var(--primary-color);
     height: 1px;
-    top: 871px;
-    margin-left: 547px;
+    transform: translate(-50%);
     position: absolute;
+    top: 95%;
+    left: 50%;
 }
 .copy-right {
     font-size: 11px;
     line-height: 13px;
     color: var(--primary-color);
-    padding: 0 0px 24px 0px;
-    top: 882px;
-    margin-left: 626px;
     position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
 }
