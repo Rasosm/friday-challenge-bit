@@ -89,3 +89,9 @@ nav > div {
     transform: translate(-50%);
     margin-top: 10px;
 }
+/* .footer {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: flex-end;
+} */
